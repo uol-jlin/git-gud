@@ -35,3 +35,5 @@ git rm -r --cached .
 git commit -m "Remove all tracked files from Git, keep locally"
 git push origin branch_name
 ```
+
+<img src="https://github.com/user-attachments/assets/c664de35-fbac-449f-8310-9ac552f1ad2a" alt="git rm -r --cached ." width="600" />
