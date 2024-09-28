@@ -9,3 +9,9 @@
 * Forward rapidly. Does not create a new commit.
 
 <img src="https://i.sstatic.net/Wne9D.gif" alt="Fast forward merge" width="600" />
+
+## Rebase
+* Integrates changes from one branch into another by changing the base of your current branch.
+* Creates a **linear commit history**.
+
+<img src="https://i.sstatic.net/4iiIv.gif" alt="Rebase" width="600" />
