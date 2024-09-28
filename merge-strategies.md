@@ -20,3 +20,12 @@
 * Combines all commits from a branch into a **single commit** when merging into the main branch.
 
 <img src="https://i.sstatic.net/wzol8.gif" alt="Rebase" width="600" />
+
+---
+
+## `--no-ff` Option
+* `--no-ff` option ensures that a fast forward merge will not happen.
+* A **new commit object** will always be created.
+* Good if you want git to maintain a history of feature branches.    
+
+<img src="https://github.com/user-attachments/assets/d922a275-e049-4e72-b7e7-53ed848c12e0" width="600" />
