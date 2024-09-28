@@ -35,3 +35,13 @@ $ cat .git/HEAD
 ```
 
 <img src="https://github.com/user-attachments/assets/9d75d422-8af8-458e-a88a-873b121d2558" alt="HEAD as symbolic ref vs. detached HEAD state" width="600" />
+
+## How Git Tracks the Current Commit
+
+When you run `git commit`, Git needs to identify the **parent of the new commit**. 
+
+It checks the symbolic reference in `HEAD`:
+
+ * If you’re on a branch, Git uses the branch reference (e.g., `refs/heads/branch-name`) to find the latest commit.
+ * In detached `HEAD` state, Git uses the commit hash that HEAD points to directly.
+   
