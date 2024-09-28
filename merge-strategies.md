@@ -15,3 +15,8 @@
 * Creates a **linear commit history**.
 
 <img src="https://i.sstatic.net/4iiIv.gif" alt="Rebase" width="600" />
+
+## Squash
+* Combines all commits from a branch into a **single commit** when merging into the main branch.
+
+<img src="https://i.sstatic.net/wzol8.gif" alt="Rebase" width="600" />
