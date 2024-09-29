@@ -11,3 +11,15 @@
   * It pulls from the reflog specific to the current branch, tracking the changes made to that branch rather than just `HEAD`.
 
 > __Note__: `@` refers to the current commit that `HEAD` points to.
+
+## Example of Using `HEAD@{x}`
+
+`HEAD@{x}` is useful for referencing a specific state from your reflog history. For example:
+
+To reset your branch to the state before the most recent commit:
+
+```bash
+git reset --hard HEAD@{1}
+```
+
+This will reset the current branch to the commit before the most recent `HEAD` change, which could be from a commit, merge, or rebase.
