@@ -31,3 +31,11 @@ git checkout HEAD@{2}
 ```
 
 This is useful if you want to explore or inspect how the branch looked two changes prior.
+
+### To see the reflog history for `HEAD`:
+
+```bash
+git reflog
+```
+
+This will show you a list of previous states `HEAD` has gone through, with the index (`HEAD@{0}`, `HEAD@{1}`, etc.) that you can use to reference each state.
