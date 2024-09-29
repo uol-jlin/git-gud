@@ -16,10 +16,18 @@
 
 `HEAD@{x}` is useful for referencing a specific state from your reflog history. For example:
 
-To reset your branch to the state before the most recent commit:
+### To reset your branch to the state before the most recent commit:
 
 ```bash
 git reset --hard HEAD@{1}
 ```
 
 This will reset the current branch to the commit before the most recent `HEAD` change, which could be from a commit, merge, or rebase.
+
+### To checkout the state of the branch two changes ago:
+
+```bash
+git checkout HEAD@{2}
+```
+
+This is useful if you want to explore or inspect how the branch looked two changes prior.
